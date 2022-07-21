@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>chatroom</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://gw.alipayobjects.com/os/lib/socket.io-client/4.3.2/dist/socket.io.js"></script>
+</head>
+
+<body>
+    <div class=" login">
+        <p class="login-title">登录</p>
+        <div class="content usrName">
+            <span>账户名</span>
+            <input type="text">
+        </div>
+        <div class="content usrPwd">
+            <span>密码</span>
+            <input type="password">
+        </div>
+        <button class="login-button">登录</button>
+    </div>
+    <div class="chatroom">
+        <div class="contact">
+            <div class="contact-name">在线列表</div>
+            <ul class="contact-list">
+
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">多人聊天室</div>
+            <div class="list"></div>
+            <div class="input-wrap">
+                <input class="input">
+                <button>发送</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
